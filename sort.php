@@ -26,4 +26,19 @@ London
 Canada
 America
 
+<?php
+$age = array("akash"=>"28", "jack"=>"37", "Joe"=>"43");
+arsort($age); // will Sort the Array (Descending Order), According to Value - arsort()
+
+foreach($age as $x => $x_value) {
+    echo "Key=" . $x . ", Value=" . $x_value;
+    echo "<br>";
+}
+?>
+output:
+Key=Joe, Value=43
+Key=jack, Value=37
+Key=akash, Value=28
+
+
 
